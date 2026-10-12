@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+
+    <style
+        name="Base.Theme.ScientificCalculator"
+        parent="Theme.Material3.DayNight.NoActionBar">
+
+        <item name="android:fontFamily">sans</item>
+
+        <item name="android:statusBarColor">#171718</item>
+        <item name="android:navigationBarColor">#171718</item>
+
+        <item name="android:windowLightStatusBar">false</item>
+
+        <item name="android:windowActionModeOverlay">true</item>
+
+    </style>
+
+
+    <style
+        name="Theme.ScientificCalculator"
+        parent="Base.Theme.ScientificCalculator" />
+
+
+    <style
+        name="CalcNumberButton"
+        parent="Widget.Material3.Button">
+
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">0dp</item>
+
+        <item name="android:layout_columnWeight">1</item>
+        <item name="android:layout_rowWeight">1</item>
+
+        <item name="android:layout_margin">3dp</item>
+
+        <item name="android:minWidth">0dp</item>
+        <item name="android:minHeight">0dp</item>
+
+        <item name="android:padding">0dp</item>
+
+        <item name="android:gravity">center</item>
+
+        <item name="android:maxLines">1</item>
+
+        <!-- Reduced to fit small landscape boxes -->
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+
+        <item name="android:backgroundTint">#24272D</item>
+
+    </style>
+
+    <style
+        name="CalcOperatorButton"
+        parent="Widget.Material3.Button">
+
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">0dp</item>
+
+        <item name="android:layout_columnWeight">1</item>
+        <item name="android:layout_rowWeight">1</item>
+
+        <item name="android:layout_margin">3dp</item>
+
+        <item name="android:minWidth">0dp</item>
+        <item name="android:minHeight">0dp</item>
+
+        <item name="android:padding">0dp</item>
+
+        <item name="android:gravity">center</item>
+
+        <item name="android:maxLines">1</item>
+
+        <!-- Reduced to fit small landscape boxes -->
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+
+        <item name="android:backgroundTint">#343840</item>
+
+    </style>
+
+
+    <style
+        name="CalcScientificButton"
+        parent="Widget.Material3.Button">
+
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">0dp</item>
+
+        <item name="android:layout_columnWeight">1</item>
+        <item name="android:layout_rowWeight">1</item>
+
+        <item name="android:layout_margin">2dp</item>
+
+        <item name="android:minWidth">0dp</item>
+        <item name="android:minHeight">0dp</item>
+
+        <item name="android:padding">0dp</item>
+
+        <item name="android:gravity">center</item>
+
+        <item name="android:maxLines">1</item>
+
+        <item name="android:includeFontPadding">false</item>
+
+        <!-- Smaller scientific text -->
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+
+        <item name="android:backgroundTint">#292C33</item>
+
+    </style>
+
+
+    <style
+        name="CalcEqualsButton"
+        parent="Widget.Material3.Button">
+
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">0dp</item>
+
+        <item name="android:layout_columnWeight">1</item>
+        <item name="android:layout_rowWeight">1</item>
+
+        <item name="android:layout_margin">3dp</item>
+
+        <item name="android:minWidth">0dp</item>
+        <item name="android:minHeight">0dp</item>
+
+        <item name="android:padding">0dp</item>
+
+        <item name="android:gravity">center</item>
+
+        <item name="android:maxLines">1</item>
+
+        <!-- Reduced to fit small landscape box -->
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+
+        <item name="android:backgroundTint">#2962FF</item>
+
+    </style>
+
+
+    <style
+        name="CalcClearButton"
+        parent="Widget.Material3.Button">
+
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">0dp</item>
+
+        <item name="android:layout_columnWeight">1</item>
+        <item name="android:layout_rowWeight">1</item>
+
+        <item name="android:layout_margin">2dp</item>
+
+        <item name="android:minWidth">0dp</item>
+        <item name="android:minHeight">0dp</item>
+
+        <item name="android:padding">0dp</item>
+
+        <item name="android:gravity">center</item>
+
+        <item name="android:maxLines">1</item>
+
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+
+        <item name="android:backgroundTint">#D32F2F</item>
+
+    </style>
+
+</resources>
